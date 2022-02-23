@@ -5,7 +5,6 @@ import React, { useReducer } from 'react';
 const initialState = {
     firstCounter: 0,
     secondCounter: 10,
-    data: [],
 };
 const reducer = (state, action) => {
     switch (action.type) {
