@@ -27,6 +27,7 @@ const CounterOne = () => {
     const [count, dispatch] = useReducer(reducer, initialState);
     return (
         < div style={{ textAlign: 'center' }} >
+            <h2>Counter One</h2>
             <div>Count- {count}</div>
             <button onClick={() => dispatch('increment')}>Increment</button>
             <button onClick={() => dispatch('decrement')} >Decrement</button>
