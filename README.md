@@ -7,18 +7,31 @@ useReducer() The useReducer(reducer, initialState) hook accept 2 arguments: the 
 
 <li>
  const reducer = (state, action)=>{
-     switch(action){
+     <br/>
+     switch(action){ 
+         <br/>
          case <i>condition</i>:
+         <br/>
           return newState;
+          <br/>
           break;
+          <br/>
          case <i>condition</i>:
+         <br/>
           return newState;
+          <br/>
           break;
+          <br/>
          case <i>condition</i>:
+         <br/>
           return newState;
+          <br/>
           default: 
+          <br/>
           return state;
+          <br/>
      }
+     <br/>
  }
 </li>
 <li>
@@ -29,7 +42,7 @@ const [state, dispatch] = useReducer(reducer, initialState)
 <h5>Examples</h5>
 
 <code>
-<button onClick={()=> dispatch('actionName')} >Action</button>
+<button onClick={()-> dispatch('actionName')} >Action</button>
 </code>
 <p>
 The dispatch function accepts an object that represents the type of action we want to execute when it is called.
