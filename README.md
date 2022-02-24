@@ -51,4 +51,10 @@ The dispatch function accepts an object that represents the type of action we wa
 <p>
  It basically sends the type of action to the reducer function to perform its job, which, of course, is updating the state.
 </p>
+
+<h3>
+<a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A">Visit Codevolution's React Hook Tutorial Series</a>
+</h3>
+
+<img src="./public/useState_vs_useReducer.png" alt="" />
  
